@@ -23,12 +23,16 @@ ol {
 
 .header-conteiner {
   display: flex;
+  align-items: center;
 }
 
-.header-one {}
+.header-one {
+  border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
+}
 
 .navigation {
   display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -40,6 +44,7 @@ ol {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .logo-two {
@@ -48,6 +53,7 @@ ol {
 
 .list-nav {
   display: flex;
+  gap: 40px;
 }
 
 .item-nav {}
@@ -58,6 +64,8 @@ ol {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
+  display: block;
 }
 
 .link-nav:hover,
@@ -67,10 +75,12 @@ ol {
 
 .adress {
   font-style: normal;
+  margin-left: auto;
 }
 
 .list-adress {
   display: flex;
+  gap: 40px;
 }
 
 .item-adress {}

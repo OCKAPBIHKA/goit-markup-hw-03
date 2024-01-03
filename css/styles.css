@@ -15,8 +15,19 @@ ol {
   margin: 0;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .conteiner {
-  width: 1158px;
+  width: 100%;
+  max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -110,6 +121,9 @@ ol {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  width: 496px;
+  height: 120px;
+  margin: 0 auto;
 }
 
 .button-one {
@@ -121,6 +135,10 @@ ol {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  padding: 16px 32px;
+  border-radius: 4px;
+  margin-top: 48px;
+  margin-bottom: 188px;
 }
 
 .button-one:hover,
@@ -128,12 +146,25 @@ ol {
   background: #404BBF
 }
 
+.hero-conteiner {
+  text-align: center;
+  padding-top: 188px;
+}
+
 /* ----------------SECTION2-------------------- */
-.section-two {}
+.section-two {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 
-.list-advantages {}
+.list-advantages {
+  display: flex;
+  gap: 24px;
+}
 
-.link-advantages {}
+.link-advantages {
+  width: 264px;
+}
 
 .name-advantages {
   color: #2E2F42;
@@ -141,6 +172,7 @@ ol {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  padding-bottom: 8px;
 }
 
 .text-advantages {
@@ -166,7 +198,10 @@ ol {
   text-transform: capitalize;
 }
 
-.list-team {}
+.list-team {
+  display: flex;
+  gap: 24px;
+}
 
 .link-team {
   background-color: #FFFFFF
@@ -193,6 +228,7 @@ ol {
 /* ------------------SECTION4------------------ */
 .section-portfolio {
   background: #FFF;
+  padding-top: 120px;
 }
 
 .our-portfolio {

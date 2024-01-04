@@ -116,6 +116,7 @@ img {
 /* ------------------SECTION1--------------- */
 .section-one {
   background-color: #2E2F42;
+  padding: 188px 0;
 }
 
 .maine-text {
@@ -155,7 +156,6 @@ img {
 
 .hero-conteiner {
   text-align: center;
-  padding: 188px 0;
 }
 
 /* ----------------SECTION2-------------------- */
@@ -197,12 +197,10 @@ img {
 /* ---------------SECTION3------------------- */
 .section-team {
   background: #F4F4FD;
+  padding: 120px 0 120px;
 }
 
-.container-team {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
+.container-team {}
 
 .our-team {
   color: #2E2F42;
@@ -253,12 +251,10 @@ img {
 /* ------------------SECTION4------------------ */
 .section-portfolio {
   background: #FFF;
+  padding: 120px 0 120px 0;
 }
 
-.container-portfolio {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
+.container-portfolio {}
 
 .our-portfolio {
   color: #2E2F42;
@@ -308,6 +304,7 @@ img {
 /* ---------------FOOTER------------------ */
 .footer {
   background: #2E2F42;
+  padding: 100px 0 100px;
 }
 
 .logo-footer {
@@ -343,7 +340,4 @@ img {
   width: 264px;
 }
 
-.footer-container {
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
+.footer-container {}
